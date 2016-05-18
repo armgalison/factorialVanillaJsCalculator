@@ -19,5 +19,9 @@ function calculate() {
         tmp *= display.value;
         console.log(display.value);
     }
+    if(tmp > 999999){
+        tmp = tmp+' ';
+        tmp = tmp.slice(0,9)+'...';
+    }
     display.value = tmp;
 }
