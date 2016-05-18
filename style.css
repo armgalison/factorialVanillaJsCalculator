@@ -51,15 +51,21 @@ body{text-align: center;}
     border-left: 2px solid #555;
     border-bottom: 2px solid #888;
     border-right: 2px solid #888;
+    cursor: pointer;
 }
+.calc-button:hover{border: 2px solid #555;}
+.calc-button:active{border: 2px solid #444;}
 #button-calculate{
     border-radius: 5px;
     font-size: 20px;
-    border-top: 2px solid #ccc;
-    border-left: 2px solid #ccc;
-    border-bottom: 2px solid #999;
-    border-right: 2px solid #999;
+    border-top: 2px solid #999;
+    border-left: 2px solid #999;
+    border-bottom: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    cursor: pointer;
 }
+#button-calculate:hover{border: 2px solid #999;}
+#button-calculate:active{border: 2px solid #666;}
 #button-clear{
     border-radius: 5px;
     font-size: 20px;
@@ -69,4 +75,7 @@ body{text-align: center;}
     border-left: 2px solid #555;
     border-bottom: 2px solid #888;
     border-right: 2px solid #888;
+    cursor: pointer;
 }
+#button-clear:hover{border: 2px solid #555;}
+#button-clear:active{border: 2px solid #333;}
